@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SunshineWatchFace</string>
+    <string name="message">Watch face tapped</string>
+    <string name="sunshine_face">Sunshine Face</string>
+    <string name="sunshine_am">AM</string>
+    <string name="sunshine_pm">PM</string>
+    <string name="date_format" formatted="false">%02d-%02d-%04d</string>
+    <string name="degree_symbol">°</string>
+</resources>

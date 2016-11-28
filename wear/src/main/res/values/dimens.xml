@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sunshine_text_size">30sp</dimen>
+    <dimen name="sunshine_text_size_round">35sp</dimen>
+    <dimen name="sunshine_am_pm_size">25sp</dimen>
+    <dimen name="sunshine_am_pm_size_round">30sp</dimen>
+    <dimen name="sunshine_x_offset">15dp</dimen>
+    <dimen name="sunshine_x_offset_round">25dp</dimen>
+    <dimen name="sunshine_date_x_offset">20dp</dimen>
+    <dimen name="sunshine_date_x_offset_round">30dp</dimen>
+    <dimen name="sunshine_y_offset">80dp</dimen>
+    <dimen name="sunshine_date_line_height">25dp</dimen>
+    <dimen name="sunshine_temp_line_height">40dp</dimen>
+    <dimen name="sunshine_temp_line_height_round">30dp</dimen>
+    <dimen name="sunshine_max_temp_size_round">27sp</dimen>
+    <dimen name="sunshine_max_temp_size">22sp</dimen>
+    <dimen name="sunshine_date_size_round">20sp</dimen>
+    <dimen name="sunshine_date_size">18sp</dimen>
+</resources>
