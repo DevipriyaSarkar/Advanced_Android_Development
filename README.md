@@ -1,38 +1,25 @@
-Advanced Android Sample App
-===================================
+# Sunshine Wearable
 
-Synchronizes weather information from OpenWeatherMap on Android Phones and Tablets. Used in the Udacity Advanced Android course.
-
-Pre-requisites
---------------
-Android SDK 21 or Higher
-Build Tools version 21.1.2
-Android Support AppCompat 22.2.0
-Android Support Annotations 22.2.0
-Android Support GridLayout 22.2.0
-Android Support CardView 22.2.0
-Android Support Design 22.2.0
-Android Support RecyclerView 22.2.0
-Google Play Services GCM 7.0.0
-BumpTech Glide 3.5.2
+Synchronizes weather information from OpenWeatherMap on Android Phones and Tablets. Used in the Udacity Advanced Android course.  
+This is a part of the Android Developer Nanodegree for the creation of a watch face for the sunshine app to run on an Android Wear device.
 
 
-Getting Started
----------------
-This sample uses the Gradle build system.  To build this project, use the
-"gradlew build" command or use "Import Project" in Android Studio.
+## Getting Started
+1. This sample uses the Gradle build system.  To build this project, use the "gradlew build" command or use "Import Project" in Android Studio.
+2. Add your OpenWeatherMap API key to this [file](app/build.gradle). It can be obtained from [here](http://openweathermap.org/appid).
+3. To connect the Android Wear device / emulator, follow the instructions [here](https://developer.android.com/training/wearables/apps/creating.html).
 
-Support
--------
+## Screenshot of Wear App
 
-- Google+ Community: https://plus.google.com/communities/105153134372062985968
-- Stack Overflow: http://stackoverflow.com/questions/tagged/android
+### Interactive Mode
+<img src="screenshots/preview_sunshine_circular.png" width="360" alt="Preview Sunshine Circular" >
+<img src="screenshots/preview_sunshine.png" width="360" alt="Preview Sunshine" >
 
-Patches are encouraged, and may be submitted by forking this project and
-submitting a pull request through GitHub. Please see CONTRIBUTING.md for more details.
+### Ambient Mode
+<img src="screenshots/preview_sunshine_circular_ambient.png" width="360" alt="Preview Sunshine Circular Ambient" >
+<img src="screenshots/preview_sunshine_ambient.png" width="360" alt="Preview Sunshine Ambient" >
 
-License
--------
+## License
 Copyright 2015 The Android Open Source Project, Inc.
 
 Licensed to the Apache Software Foundation (ASF) under one or more contributor
