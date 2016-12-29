@@ -51,7 +51,7 @@ public class SunshineWatchFaceService extends CanvasWatchFaceService {
 
     private static final long INTERACTIVE_UPDATE_RATE_MS = TimeUnit.SECONDS.toMillis(1);
     private static final int MSG_UPDATE_TIME = 0;
-    public static String PATH_WEAR_WEATHER = "/weather";
+    private static String PATH_WEAR_WEATHER = "/weather";
 
     @Override
     public Engine onCreateEngine() {
@@ -466,7 +466,7 @@ public class SunshineWatchFaceService extends CanvasWatchFaceService {
 
     }
 
-    public int getIconResourceForWeatherCondition(int weatherId) {
+    private int getIconResourceForWeatherCondition(int weatherId) {
         // Based on weather code data found at:
         // http://bugs.openweathermap.org/projects/api/wiki/Weather_Condition_Codes
         if (weatherId >= 200 && weatherId <= 232) {
